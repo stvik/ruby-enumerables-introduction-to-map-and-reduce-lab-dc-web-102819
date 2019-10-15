@@ -24,7 +24,8 @@ def map_to_double(source_array)
   new_array = []
   i = 0
   while i < source_array.size do
-    new_array[i] = source_array[i]
+    new_array[i] = source_array[i]*2
     i += 1
   end
   new_array
+end
